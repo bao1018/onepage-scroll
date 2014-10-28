@@ -93,7 +93,7 @@
     paginationList = "";
 
     $.fn.transformPage = function(settings, pos, index) {
-      if (navigator.appVersion.indexOf("MSIE 9") > -1 || navigator.appVersion.indexOf("MSIE 8") > -1) {
+      if (navigator.appVersion.indexOf("MSIE 9") > -1) {
         if (document.all && !window.atob) {
           $(this).animate({
             top: pos + '%'
